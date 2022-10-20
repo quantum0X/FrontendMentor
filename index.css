@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=IBM+Plex+Mono&family=Satisfy&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.colorChanger {
+    animation: colorChanger 2s infinite ease-in-out;
+}
+
+@keyframes colorChanger {
+    0%, 100% {
+        background: rgb(255, 101, 186);
+        -webkit-background-clip: text;
+    }
+    50%{
+        background: rgb(87, 78, 255);
+        -webkit-background-clip: text;
+
+    }
+}
+
+.title {
+    font-family: 'Satisfy', cursive;
+}
+
+.epic {
+    background-color: #131313;
+}
+
+.card-bottom {
+    background-color: #FF8787;
+}
+.card-bottom-btn:hover {
+    background-color: #bbc4ff;
+}
