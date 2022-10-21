@@ -5,6 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ----- Home Style ----- */
 .colorChanger {
     animation: colorChanger 2s infinite ease-in-out;
 }
